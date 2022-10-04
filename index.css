@@ -1,0 +1,86 @@
+:root {
+    font-size: 16px;
+}
+
+@font-face {
+  font-family: 'Cursed Timer UliL';
+  src: URL('CursedTimer.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: #111827;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 
+    Typography 
+*/
+
+.boardContainer {
+    
+}
+
+.boardTitle {
+    font-family: 'Verdana', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #EEEEEE;
+    text-align: center;
+    margin: 0;
+    margin-top: 1.2em;
+    padding: 0.6em 0;
+}
+
+.boardPointNumber {
+    font-family: 'Cursed Timer UliL', sans-serif;
+    font-weight: 400;
+    font-size: 5.5rem;
+    color: #F94F6D;
+}
+
+.boardModifierButton {
+    font-family: 'Cursed Timer UliL', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #9AABD8;
+}
+
+/*
+    Layout
+*/
+
+.boardPointContainer {
+    display: flex;
+    background-color: #080001;
+    width: 150px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boardPointNumber {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    padding-top: 0.2em;
+}
+
+.boardModifierContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;    
+}
+
+.boardModifierButton {
+    width: 40px;
+    height: 40px;
+    background-color: #111827;
+    border: 1px solid #9AABD8;
+}
